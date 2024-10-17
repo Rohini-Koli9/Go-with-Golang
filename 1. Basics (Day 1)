@@ -1,0 +1,56 @@
+Complied 
+Go tool can run file directly, without VM(Virtual Machine)
+Executables are different for OS
+
+What
+System apps to web apps - Cloud
+Already in Production
+
+Dont bring baggage
+Yeah, I did that earlier
+Similarties with lots of language - C, Java, Pascal
+
+Object Oriented
+Yes and No (it has struct but not classes)
+What you see on the screen is the code
+
+Missing
+is it really missing?
+No tr catch
+lexer does a lot of work
+
+//main.go file
+package main
+
+import "fmt"
+
+func main() {
+   fmt.Println("Hello World")
+}
+
+//Terminal
+> go mod init hello
+> go run main.go
+
+> go help (for read the documenation)
+> go help particular_command_name
+
+# lexer means you are follwing the grammar of the any language.
+
+Types
+Case insensitive; almost
+Variable typr should be known in advance
+Everything is a Type
+String
+Bool
+Integer  uint8  uint64  int8  int64  uintptr  (aliases are involved too)
+Floating float32 float64
+Complex
+
+Advance Types
+Array
+Slices
+Maps
+Structs
+Pointers
+Almost Everything - Functions, Channels, Mutex, ....
